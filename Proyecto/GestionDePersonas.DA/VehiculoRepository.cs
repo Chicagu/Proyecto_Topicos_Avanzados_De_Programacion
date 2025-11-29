@@ -61,7 +61,6 @@ namespace GestionDePersonas.DA
 
             if (vehiculoDB != null)
             {
-                vehiculoDB.PersonaId = vehiculo.PersonaId;
                 vehiculoDB.Placa = vehiculo.Placa;
                 vehiculoDB.Marca = vehiculo.Marca;
                 vehiculoDB.Modelo = vehiculo.Modelo;
